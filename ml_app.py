@@ -57,7 +57,7 @@ def run_ml_app():
                                      'region_34'])
     education = st.selectbox('Education', ["Below Secondary", "Bachelor's", "Master's & above"])
     gender = st.radio('Gender', ['m','f'])
-    recruitment = st.selectbox("Recruitment Channel", ["referredd", "sourcing", "others"])
+    recruitment = st.selectbox("Recruitment Channel", ["referred", "sourcing", "others"])
     training = st.number_input("No of Training", 1, 10)
     age = st.number_input("Age",10,60)
     rating = st.number_input("Previous Year Rating",1,5)
